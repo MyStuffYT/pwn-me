@@ -1,0 +1,47 @@
+# === Node / React ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.env*
+*.env.*.local
+.cache/
+dist/
+build/
+.vite/
+.next/
+out/
+
+# VS Code
+.vscode/
+
+# React cache artifacts
+*.log
+*.map
+
+# === Go ===
+*.exe
+*.test
+*.out
+*.log
+*.mod
+*.sum
+bin/
+obj/
+vendor/
+
+# Go build cache
+/tmp/
+*.tmp
+
+# === OS-specific ===
+.DS_Store
+Thumbs.db
+
+# === Project-specific ===
+frontend/package-lock.json
+frontend/.package-lock.json
+
+# PREVENT LEAKING OF SERIOUS DATABREACHES
+backend/databases/*
+!backend/databases/dummy.csv
